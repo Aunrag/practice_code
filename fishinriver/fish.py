@@ -1,6 +1,7 @@
 '''suppose there is a river. there are number of fishes in the river .
 the bigger fishes eats the smaller fishes,bigger the fish is faster the speed.
 fishes can only go down stream and not up stream.if there are n number of fishes in the river initially how many fishes will remain in the end.'''
+'''
 n=int(input("enter the number of fishes: "))
 import array as arr
 a=arr.array('i',[])
@@ -22,5 +23,7 @@ for i in range(0,n):
     for i in range(0,g):
         b.pop()
 print("fishes are:",a)
-
+'''
+for i in range(0,10):
+    print(i,"i am spiderman")
 
