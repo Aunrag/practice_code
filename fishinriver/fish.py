@@ -24,7 +24,6 @@ for i in range(0,n):
         b.pop()
 print("fishes are:",a)
 '''
-for i in range(0,10):
+for i in range(1,11):
     print(i,"i am spiderman")
-    print(end=" ")
 
