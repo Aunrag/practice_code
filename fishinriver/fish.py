@@ -26,4 +26,5 @@ print("fishes are:",a)
 '''
 for i in range(0,10):
     print(i,"i am spiderman")
+    print(end=" ")
 
