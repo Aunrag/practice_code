@@ -27,4 +27,4 @@ print("fishes are:",a)
 '''
 for i in range(1,11):
     print(i,"i am spiderman")
-
+spidy
