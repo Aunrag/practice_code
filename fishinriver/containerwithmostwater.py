@@ -1,4 +1,4 @@
-class maxarea():
+'''class maxarea():
     def area(self):
         n=int(input("enter number of lines: "))
         import array as arr 
@@ -19,4 +19,4 @@ class maxarea():
         
 height=maxarea()
 height.area()
-      
+'''
