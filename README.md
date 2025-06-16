@@ -1,6 +1,8 @@
 Insatall dependancies:
+
 	Make sure you have Python 3.x installed.
-	Then, open a terminal and run 
+
+ 	Then, open a terminal and run 
 	
 	pip install pandas numpy scikit-learn matplotlib
 How to Run:
