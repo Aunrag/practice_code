@@ -12,8 +12,7 @@ How to Run:
 		Data preprocessing (scaling, PCA)
 
 		Anomaly detection using Isolation Forest
-
-	4]Visualizations:
+Visualizations:
 
 		PCA scatter plot with anomalies
 
