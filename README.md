@@ -1,29 +1,39 @@
-Insatall dependancies:
+# Car Sharing Demand Prediction
 
-	Make sure you have Python 3.x installed.
+This project predicts car rental demand using historical and environmental data. It uses machine learning models including Linear Regression, Random Forest, and XGBoost to forecast the number of car rentals at a given time.
 
- 	Then, open a terminal and run 
-	
-	pip install pandas numpy scikit-learn matplotlib
-How to Run:
+## Dataset
 
-1]Open Jupyter Notebook
+The dataset contains both temporal and weather-related features:
+- `record_date`, `hour_of_day`
+- `temp_celsius`, `humidity_percent`, `wind_speed_mps`, `visibility_10m`, `dew_point_celsius`
+- `solar_energy_mj_m2`, `rain_mm`, `snow_cm`
+- `season_label`, `is_Holiday`, `is_working_day`
+- `car_rental_count` (target variable)
 
-2]Run the Notebook:
-	Open Assignment_Isolation_Forest_ASGN2703.ipynb
- 
-	Run all cells sequentially.
+## Models Used
 
-3]Output Includes:
-	Data preprocessing (scaling, PCA)
- 
-	Anomaly detection using Isolation Forest
+- Linear Regression
+- Random Forest Regressor (with GridSearchCV)
+- XGBoost Regressor (with GridSearchCV)
 
-Visualizations:
-		PCA scatter plot with anomalies
+## Installation
 
-		Time series plot with anomalies
+Make sure you have Python 3.9 or above installed. Then, create a virtual environment and install dependencies.
 
-		Evaluation metrics and recommendations
+```bash
+# Create virtual environment
+python -m venv mlenv
 
-	
+# Activate it
+# Windows
+mlenv\Scripts\activate
+# Linux/macOS
+source mlenv/bin/activate
+
+# Upgrade pip
+pip install --upgrade pip
+
+# Install dependencies
+pip install numpy pandas matplotlib scikit-learn xgboost jupyter
+
